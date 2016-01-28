@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    // Declaracion de variables
+    // Declaración de variables
     LocationManager mLocationManager;
     TextView latitud, longitud;
     LocationListener mLocationListener;
