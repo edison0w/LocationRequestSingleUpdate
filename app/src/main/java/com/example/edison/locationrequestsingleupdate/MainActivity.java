@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Inicializamos los componentes
+        // Inicializamos los componentes o vistas
         latitud = (TextView) findViewById(R.id.txtLatitud);
         longitud = (TextView) findViewById(R.id.txtLongitud);
         mLocationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
